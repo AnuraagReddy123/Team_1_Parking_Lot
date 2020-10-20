@@ -6,9 +6,10 @@ class Parking_Spot {
     private String typeOfVehicle;
 
     //Constructor
-    Parking_Spot(String typeOfSpot) {
+    Parking_Spot(String typeOfSpot, Boolean isElectrical) {
         this.typeOfSpot = typeOfSpot;
         this.isEmpty = true;
+        this.isElectrical = isElectrical;
     }
 
     //Methods (Change name of methods if better are possible)
