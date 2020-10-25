@@ -1,27 +1,44 @@
+//class parking_spot
+//contains details of spot like isElectrical for checking spot type
+//typeOfVehicle for checking spot type
+//isEmpty for checking empty space
 class Parking_Spot {
+
     //Variables of class
+
     private String typeOfSpot;
-    private boolean isEmpty;
+    public boolean isEmpty;
     private boolean isElectrical;
     private String typeOfVehicle;
 
-    //Constructor
+    public boolean isElectrical() {
+        return isElectrical;
+    }
+
+
+    public String getTypeOfVehicle() {
+        return typeOfVehicle;
+    }
+
+
+    public String getTypeOfSpot() {
+        return typeOfSpot;
+    }
+
+    //Constructor for
+    //typeOf Spot and isElectrical
+
     Parking_Spot(String typeOfSpot, Boolean isElectrical) {
         this.typeOfSpot = typeOfSpot;
         this.isEmpty = true;
         this.isElectrical = isElectrical;
-    }
 
-    //Methods (Change name of methods if better are possible)
-    //To set the isEmpty false when customer comes
-    public void setParked(Customer c) {             //Assuming based on customer object
-        //Set typeOfVehicle using customer's variable like "c.typeOfVehicle"
-        this.isEmpty = false;
     }
 
     //To get the status of parking
     public Boolean getStatusParked() {
         return this.isEmpty;
     }
-}
 
+
+}
