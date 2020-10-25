@@ -9,4 +9,4 @@ If it is a customer who is entering the parking lot, all the available spots acr
 
 A customer leaving the parking lot will be asked to pay to the attendant or pay through the automated floor exit. Customers can make a payment via the Customer Info Portal also. The amount will be calculated and displayed after a customer gives their challan number which was issued earlier as an input. Customers have the option to pay through cash or card. After paying customer can leave the lot.
 
-## Code in master branch
+# Code in master branch
